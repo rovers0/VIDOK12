@@ -1,0 +1,10 @@
+C:\Users\VienDong\Documents\SharpDevelop Projects\BaiTapPhanSo\BaiTapPhanSo\bin\Debug\BaiTapPhanSo.exe
+C:\Users\VienDong\Documents\SharpDevelop Projects\BaiTapPhanSo\BaiTapPhanSo\bin\Debug\BaiTapPhanSo.pdb
+C:\Users\VienDong\Documents\SharpDevelop Projects\BaiTapPhanSo\BaiTapPhanSo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\VienDong\Documents\SharpDevelop Projects\BaiTapPhanSo\BaiTapPhanSo\obj\Debug\BaiTapPhanSo.exe
+C:\Users\VienDong\Documents\SharpDevelop Projects\BaiTapPhanSo\BaiTapPhanSo\obj\Debug\BaiTapPhanSo.pdb
+E:\Develop\BaiTapPhanSo\BaiTapPhanSo\bin\Debug\BaiTapPhanSo.exe
+E:\Develop\BaiTapPhanSo\BaiTapPhanSo\bin\Debug\BaiTapPhanSo.pdb
+E:\Develop\BaiTapPhanSo\BaiTapPhanSo\obj\Debug\ResolveAssemblyReference.cache
+E:\Develop\BaiTapPhanSo\BaiTapPhanSo\obj\Debug\BaiTapPhanSo.exe
+E:\Develop\BaiTapPhanSo\BaiTapPhanSo\obj\Debug\BaiTapPhanSo.pdb
