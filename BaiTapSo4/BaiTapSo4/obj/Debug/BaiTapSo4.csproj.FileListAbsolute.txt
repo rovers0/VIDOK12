@@ -1,0 +1,5 @@
+D:\0 - Client\VIDO\VIDOK12\BaiTapSo4\BaiTapSo4\bin\Debug\BaiTapSo4.exe
+D:\0 - Client\VIDO\VIDOK12\BaiTapSo4\BaiTapSo4\bin\Debug\BaiTapSo4.pdb
+D:\0 - Client\VIDO\VIDOK12\BaiTapSo4\BaiTapSo4\obj\Debug\BaiTapSo4.csprojResolveAssemblyReference.cache
+D:\0 - Client\VIDO\VIDOK12\BaiTapSo4\BaiTapSo4\obj\Debug\BaiTapSo4.exe
+D:\0 - Client\VIDO\VIDOK12\BaiTapSo4\BaiTapSo4\obj\Debug\BaiTapSo4.pdb
