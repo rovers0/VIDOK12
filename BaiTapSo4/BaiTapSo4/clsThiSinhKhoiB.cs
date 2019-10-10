@@ -55,7 +55,7 @@ namespace BaiTapSo4
 		}
 		public override void HienThiThongTin()
 		{
-			Console.WriteLine("| {0,-11} | {1,-18} | {2,-18} | {3,7} | {4,4} | {5,4} | {6,4} |", sSoBaoDanh, sHoTen, sDiaChi,iUuTien,dDiemToan,dDiemSinh,dDiemHoa);
+			Console.WriteLine("| {0,-11} | {1,-15} | {2,-15} | {3,7} | {4,4} | {5,4} | {6,4} |", sSoBaoDanh, sHoTen, sDiaChi,iUuTien,dDiemToan,dDiemSinh,dDiemHoa);
 		}
 		public override string ToString()
 		{

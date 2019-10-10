@@ -55,13 +55,17 @@ namespace BaiTapSo4
 		}
 		public override void HienThiThongTin()
 		{
-			Console.WriteLine("| {0,-11} | {1,-18} | {2,-18} | {3,7} | {4,4} | {5,4} | {6,4} |", sSoBaoDanh, sHoTen, sDiaChi,iUuTien,dDiemToan,dDiemLy,dDiemHoa);
+			Console.WriteLine("| {0,-11} | {1,-15} | {2,-15} | {3,7} | {4,4} | {5,4} | {6,4} |", sSoBaoDanh, sHoTen, sDiaChi,iUuTien,dDiemToan,dDiemLy,dDiemHoa);
 		}
 		public override string ToString()
 		{
 			return string.Format("| {0,-11} | {1,-18} | {2,-18} | {3,7} | {4,4} | {5,4} | {6,4} |", sSoBaoDanh, sHoTen, sDiaChi,iUuTien,dDiemToan,dDiemLy,dDiemHoa);
 		}
 
+		public void PhuongThucA()
+		{
+			Console.WriteLine("Phuong Thuc A");
+		}
 		public clsThiSinhKhoiA()
 		{
 			

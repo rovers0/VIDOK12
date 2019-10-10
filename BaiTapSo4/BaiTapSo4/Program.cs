@@ -7,6 +7,7 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using System.Collections.Generic;
 
 namespace BaiTapSo4
 {
@@ -16,6 +17,9 @@ namespace BaiTapSo4
 		{
 			clsMenu menu = new clsMenu();
 			int iLuaChon;
+			clsThiSinh tsTam;
+			List<clsThiSinh> dsThiSinh = new List<clsThiSinh>();
+			string sSoBaoDanh = "";
 			menu.AddItem("Nhap TS Khoi A");
 			menu.AddItem("Nhap TS Khoi B");
 			menu.AddItem("Nhap TS Khoi C");
@@ -27,7 +31,52 @@ namespace BaiTapSo4
 				iLuaChon = menu.DisplayMenu();
 				if(iLuaChon==0)
 				{
-					
+					tsTam = new clsThiSinhKhoiA();
+					tsTam.NhapThongTin();
+					dsThiSinh.Add(tsTam);
+				}
+				else if (iLuaChon == 1) 
+				{
+					tsTam = new clsThiSinhKhoiB();
+					tsTam.NhapThongTin();
+					dsThiSinh.Add(tsTam);
+				} 
+				else if (iLuaChon == 2) 
+				{
+					tsTam = new clsThiSinhKhoiC();
+					tsTam.NhapThongTin();
+					dsThiSinh.Add(tsTam);
+				} 
+				else if (iLuaChon == 3) 
+				{
+					Console.WriteLine("------------------------------Danh Sach Thi Sinh----------------------------------");
+					Console.WriteLine("| {0,-11} | {1,-15} | {2,-15} | {3,7} | {4,4} | {5,4} | {6,4} |", "So Bao Danh", "Ho Ten", "Dia Chi","Uu Tien","Mon1", "Mon2", "Mon3");
+					Console.WriteLine("----------------------------------------------------------------------------------");
+					for (int i = 0; i < dsThiSinh.Count; i++) 
+					{
+						dsThiSinh[i].HienThiThongTin();
+					}
+					Console.WriteLine("----------------------------------------------------------------------------------");
+					Console.Write("Press any key to continue . . . ");
+					Console.ReadKey(true);
+				} 
+				else if (iLuaChon == 4)
+				{
+					Console.Write("Nhap So Bao Danh Can Tim : ");
+					sSoBaoDanh = Console.ReadLine();
+					Console.WriteLine("-------------------------------Tim Thi Sinh---------------------------------------");
+					Console.WriteLine("| {0,-11} | {1,-15} | {2,-15} | {3,7} | {4,4} | {5,4} | {6,4} |", "So Bao Danh", "Ho Ten", "Dia Chi","Uu Tien","Mon1", "Mon2", "Mon3");
+					Console.WriteLine("----------------------------------------------------------------------------------");
+					for (int i = 0; i < dsThiSinh.Count; i++) 
+					{
+						if(dsThiSinh[i].SoBaoDanh == sSoBaoDanh)
+						{
+							dsThiSinh[i].HienThiThongTin();
+						}
+					}
+					Console.WriteLine("----------------------------------------------------------------------------------");
+					Console.Write("Press any key to continue . . . ");
+					Console.ReadKey(true);
 				}
 			}while (iLuaChon != 5);
 //			

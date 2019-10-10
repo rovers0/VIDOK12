@@ -61,6 +61,7 @@ namespace BaiTapSo4
 			Console.Write("Nhap Dia Chi:");
 			sDiaChi = Console.ReadLine();
 			Console.Write("Nhap Uu Tien:");
+			
 			iUuTien = int.Parse(Console.ReadLine());
 			
 		}
