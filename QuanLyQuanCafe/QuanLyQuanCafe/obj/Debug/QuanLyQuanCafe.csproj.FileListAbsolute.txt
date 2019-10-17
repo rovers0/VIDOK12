@@ -1,0 +1,7 @@
+D:\0 - Client\VIDO\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
+D:\0 - Client\VIDO\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
+D:\0 - Client\VIDO\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csprojResolveAssemblyReference.cache
+D:\0 - Client\VIDO\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
+D:\0 - Client\VIDO\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
+D:\0 - Client\VIDO\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.MainForm.resources
+D:\0 - Client\VIDO\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.GenerateResource.Cache
