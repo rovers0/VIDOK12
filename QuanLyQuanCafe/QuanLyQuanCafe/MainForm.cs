@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Web.Script.Serialization;
 
 namespace QuanLyQuanCafe
 {
@@ -18,13 +19,25 @@ namespace QuanLyQuanCafe
 	/// </summary>
 	public partial class MainForm : Form
 	{
+		List<clsUser> listUser;
+		string sFileName = @"D:\user.json";
 		public MainForm()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
 			InitializeComponent();
-			
+			listUser = new List<clsUser>();
+			if(System.IO.File.Exists(sFileName))
+			{
+				string sJson;
+				sJson = System.IO.File.ReadAllText(sFileName);
+				if(sJson != null)
+				{
+					JavaScriptSerializer serial = new JavaScriptSerializer();
+					listUser = serial.Deserialize<List<clsUser>>(sJson);
+				}
+			}
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
@@ -34,6 +47,18 @@ namespace QuanLyQuanCafe
 		{
 			string sMessage = string.Format("UserName={0}, Password = {1}", tbUserName.Text, tbPassword.Text);
 			MessageBox.Show(sMessage);
+		}
+		
+		void BtAddUserClick(object sender, EventArgs e)
+		{
+			clsUser newUser = new clsUser();
+			newUser.UserName = tbUserName.Text;
+			newUser.Password = tbPassword.Text;
+			listUser.Add(newUser);
+			JavaScriptSerializer serial = new JavaScriptSerializer();
+			string sJson = serial.Serialize(listUser);
+			MessageBox.Show(sJson);
+			System.IO.File.WriteAllText(sFileName, sJson);
 		}
 	}
 }

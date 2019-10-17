@@ -5,3 +5,11 @@ D:\0 - Client\VIDO\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCaf
 D:\0 - Client\VIDO\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
 D:\0 - Client\VIDO\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.MainForm.resources
 D:\0 - Client\VIDO\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.GenerateResource.Cache
+D:\VIDO121\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
+D:\VIDO121\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
+D:\VIDO121\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\ResolveAssemblyReference.cache
+D:\VIDO121\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.MainForm.resources
+D:\VIDO121\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\GenerateResource.read.1.tlog
+D:\VIDO121\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\GenerateResource.write.1.tlog
+D:\VIDO121\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
+D:\VIDO121\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
