@@ -13,3 +13,11 @@ D:\VIDO121\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\GenerateResource.read.1.tlog
 D:\VIDO121\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\GenerateResource.write.1.tlog
 D:\VIDO121\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
 D:\VIDO121\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
+D:\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
+D:\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
+D:\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\ResolveAssemblyReference.cache
+D:\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.MainForm.resources
+D:\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\GenerateResource.read.1.tlog
+D:\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\GenerateResource.write.1.tlog
+D:\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
+D:\VIDOK12\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb

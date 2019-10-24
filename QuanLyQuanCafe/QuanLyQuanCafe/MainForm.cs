@@ -45,20 +45,36 @@ namespace QuanLyQuanCafe
 		
 		void BtLoginClick(object sender, System.EventArgs e)
 		{
-			string sMessage = string.Format("UserName={0}, Password = {1}", tbUserName.Text, tbPassword.Text);
-			MessageBox.Show(sMessage);
+			//string sMessage = string.Format("UserName={0}, Password = {1}", tbUserName.Text, tbPassword.Text);
+			//MessageBox.Show(sMessage);
+			foreach (var user in listUser) 
+			{
+				if(user.UserName == tbUserName.Text && user.CheckPassword(tbPassword.Text) == true)
+				{
+					MessageBox.Show("Login ok");
+					return;
+				}
+			}
+			MessageBox.Show("Login fail");
 		}
 		
 		void BtAddUserClick(object sender, EventArgs e)
 		{
-			clsUser newUser = new clsUser();
-			newUser.UserName = tbUserName.Text;
-			newUser.Password = tbPassword.Text;
+//			clsUser newUser = new clsUser();
+//			newUser.UserName = tbUserName.Text;
+//			newUser.Password = tbPassword.Text;
+			clsUser newUser = new clsUser(tbUserName.Text);
+			newUser.SetPassword(tbPassword.Text);
 			listUser.Add(newUser);
 			JavaScriptSerializer serial = new JavaScriptSerializer();
 			string sJson = serial.Serialize(listUser);
 			MessageBox.Show(sJson);
 			System.IO.File.WriteAllText(sFileName, sJson);
+		}
+		
+		void BtCancelClick(object sender, EventArgs e)
+		{
+			this.Close();
 		}
 	}
 }

@@ -57,7 +57,7 @@ namespace QuanLyQuanCafe
 			// tbUserName
 			// 
 			this.tbUserName.Location = new System.Drawing.Point(106, 26);
-			this.tbUserName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.tbUserName.Margin = new System.Windows.Forms.Padding(2);
 			this.tbUserName.Name = "tbUserName";
 			this.tbUserName.Size = new System.Drawing.Size(201, 20);
 			this.tbUserName.TabIndex = 1;
@@ -74,7 +74,7 @@ namespace QuanLyQuanCafe
 			// tbPassword
 			// 
 			this.tbPassword.Location = new System.Drawing.Point(106, 58);
-			this.tbPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.tbPassword.Margin = new System.Windows.Forms.Padding(2);
 			this.tbPassword.Name = "tbPassword";
 			this.tbPassword.PasswordChar = '*';
 			this.tbPassword.Size = new System.Drawing.Size(201, 20);
@@ -83,7 +83,7 @@ namespace QuanLyQuanCafe
 			// btLogin
 			// 
 			this.btLogin.Location = new System.Drawing.Point(36, 109);
-			this.btLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.btLogin.Margin = new System.Windows.Forms.Padding(2);
 			this.btLogin.Name = "btLogin";
 			this.btLogin.Size = new System.Drawing.Size(74, 32);
 			this.btLogin.TabIndex = 4;
@@ -94,12 +94,13 @@ namespace QuanLyQuanCafe
 			// btCancel
 			// 
 			this.btCancel.Location = new System.Drawing.Point(232, 109);
-			this.btCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.btCancel.Margin = new System.Windows.Forms.Padding(2);
 			this.btCancel.Name = "btCancel";
 			this.btCancel.Size = new System.Drawing.Size(75, 32);
 			this.btCancel.TabIndex = 5;
 			this.btCancel.Text = "Cancel";
 			this.btCancel.UseVisualStyleBackColor = true;
+			this.btCancel.Click += new System.EventHandler(this.BtCancelClick);
 			// 
 			// btAddUser
 			// 
@@ -123,7 +124,7 @@ namespace QuanLyQuanCafe
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.tbUserName);
 			this.Controls.Add(this.label1);
-			this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.Margin = new System.Windows.Forms.Padding(2);
 			this.Name = "MainForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Login";
