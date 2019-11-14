@@ -1,0 +1,5 @@
+D:\VIDO121\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe
+D:\VIDO121\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.pdb
+D:\VIDO121\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\ResolveAssemblyReference.cache
+D:\VIDO121\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+D:\VIDO121\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb

@@ -1,0 +1,5 @@
+D:\BaiTapSoLon\BaiTapSoLon\bin\Debug\BaiTapSoLon.exe
+D:\BaiTapSoLon\BaiTapSoLon\bin\Debug\BaiTapSoLon.pdb
+D:\BaiTapSoLon\BaiTapSoLon\obj\Debug\ResolveAssemblyReference.cache
+D:\BaiTapSoLon\BaiTapSoLon\obj\Debug\BaiTapSoLon.exe
+D:\BaiTapSoLon\BaiTapSoLon\obj\Debug\BaiTapSoLon.pdb
