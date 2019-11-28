@@ -23,3 +23,6 @@ Nhom 6
 
 Nhom Vu Cong Doanh, Sy Nam
 	Bai Line - 14
+
+Nhom 11
+	Tro caro choi qua mang.
