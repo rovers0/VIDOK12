@@ -1,0 +1,7 @@
+D:\0 - Client\VIDO\VIDOK12\SnakeGame\SnakeGame\bin\Debug\SnakeGame.exe
+D:\0 - Client\VIDO\VIDOK12\SnakeGame\SnakeGame\bin\Debug\SnakeGame.pdb
+D:\0 - Client\VIDO\VIDOK12\SnakeGame\SnakeGame\obj\Debug\SnakeGame.csprojResolveAssemblyReference.cache
+D:\0 - Client\VIDO\VIDOK12\SnakeGame\SnakeGame\obj\Debug\SnakeGame.MainForm.resources
+D:\0 - Client\VIDO\VIDOK12\SnakeGame\SnakeGame\obj\Debug\SnakeGame.csproj.GenerateResource.Cache
+D:\0 - Client\VIDO\VIDOK12\SnakeGame\SnakeGame\obj\Debug\SnakeGame.exe
+D:\0 - Client\VIDO\VIDOK12\SnakeGame\SnakeGame\obj\Debug\SnakeGame.pdb
