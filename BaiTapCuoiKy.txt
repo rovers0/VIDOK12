@@ -1,12 +1,13 @@
-Nhóm 7
-	Pháo Hoa.
-Nhóm 2
-	Bài Con ran choi qua 2 nguoi, map.
-Nhóm 4
+NhÃ³m 7
+	PhÃ¡o Hoa.
+NhÃ³m 2
+	BÃ i Con ran choi qua 2 nguoi, map.
+NhÃ³m 4
 	Bai 2 nhieu man choi. Nhieu cap do, 3x3,4x4,4x6...
 	
 Nhom 3
 	Game Tetris
+	https://github.com/Tertrisoop/G3TETRIS
 
 Nhom 10
 	Ghep Hinh
